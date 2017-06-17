@@ -1,0 +1,39 @@
+# Specifies your untracked files for git repo.
+# Further Reading:
+# .gitignore official help: https://help.github.com/articles/ignoring-files
+# .gitignore manual: https://git-scm.com/docs/gitignore
+# Examples .gitignore files: https://github.com/github/gitignore
+
+# Dependencies
+node_modules/
+
+# Compiled output
+build
+
+# Runtime data
+
+# Test coverage, cache and temporary store
+coverage
+.nyc_output
+.grunt
+.npm
+.eslintcache
+.yarn-integrity
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editors and IDEs
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Misc
+.DS_Store
